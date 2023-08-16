@@ -304,7 +304,14 @@ section{
     height: auto;
     /* position: relative; */
 }
-
+@media (max-width: 768px) {
+    .home-image img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  
 .liquid-shape{
     position: absolute;
     width: 100%;
@@ -319,13 +326,8 @@ section{
 /* About Section css */
 .about{
     background-color: var(--secon-bg-color);
-    overflow: hidden;
+    overflow:auto;
 }
-.about-container {
-    min-height: 100vh;
-    /* Other properties */
-  }
-  
   .about-content {
     text-align: center;
     padding: 20px;
@@ -1116,11 +1118,30 @@ footer a{
 
 /* Responsive adjustments */
 @media screen and (min-width: 768px) {
+  .about {
+    width: 100%;
+  }
+  
+  /* .about-content {
+    width: 50%;
+  } */
+  
+  /* .content-wrapper {
+    flex-direction: column;
+  }
+   */
   .education-content,
   .experience-content {
     width: 100%;
   }
 }
 
+@media (max-width: 991px) {
+    .portfolio-gallery {
+      flex-direction: column; /* Stack boxes vertically on smaller screens */
+    }
   
-  
+    .port-box {
+      width: 100%; /* Take up full width on smaller screens */
+    }
+  }
