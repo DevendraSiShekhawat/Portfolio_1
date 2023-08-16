@@ -239,9 +239,9 @@ section{
     color: var(--bg-color);
 }
 
-.btn:nth-child(2)::before{
+/* .btn:nth-child(2)::before{
     background: var(--hover-color);
-}
+} */
 
 .social-icons{
     margin-top: 8rem;
