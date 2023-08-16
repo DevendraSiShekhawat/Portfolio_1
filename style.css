@@ -319,7 +319,13 @@ section{
 /* About Section css */
 .about{
     background-color: var(--secon-bg-color);
+    overflow: hidden;
 }
+.about-container {
+    min-height: 100vh;
+    /* Other properties */
+  }
+  
   .about-content {
     text-align: center;
     padding: 20px;
@@ -396,15 +402,15 @@ body {
     display: inline-block;
   }
   
-  .experience-content,
+  /* .experience-content,
   .education-content {
-    background-color: var(--bg-color);
+    background-color: var(--secon-bg-color);
     padding: 2rem;
     border-radius: 10px;
     box-shadow: var(--neon-box-shadow);
     margin: 2rem;
 
-  }
+  } */
   
   .title-wrapper {
     display: flex;
@@ -430,7 +436,7 @@ body {
   .education-content,
   .experience-content {
     flex: 1;
-    background-color: var(--bg-color);
+    background-color: var(--secon-bg-color);
     padding: 2rem;
     border-radius: 10px;
     box-shadow: var(--neon-box-shadow);
@@ -1110,21 +1116,11 @@ footer a{
 
 /* Responsive adjustments */
 @media screen and (min-width: 768px) {
-  /* .about {
-    display: flex;
-    align-items: center;
-  } */
-  
-  /* .about-content {
-    width: 50%;
-  } */
-  
-  /* .content-wrapper {
-    flex-direction: column;
-  }
-   */
   .education-content,
   .experience-content {
     width: 100%;
   }
 }
+
+  
+  
