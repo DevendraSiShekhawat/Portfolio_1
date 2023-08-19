@@ -12,11 +12,11 @@
 :root{
     --text-color: #f5f5f5;
     --hover-color: #12f7ff;
-    --bg-color: #250821;
+    --bg-color: #061117;
     --secon-bg-color: #292e33;
     --norma-font: 2rem;
     --big-font: 2.5rem;
-    --neon-box-shadow: 0 0 .5rem #12f7ff;
+    --neon-box-shadow: 0 0 .5rem #44edc5;
     --h2-font: 3rem;
     --font-neon-text-shadow: 0 0 10px rgba(18,247,255,0.3),
     0 0 20px rgba(18,247,255,0.3),
