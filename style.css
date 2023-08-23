@@ -563,6 +563,7 @@ body {
 .skill-bar{
     margin-bottom: 2.3rem;
 }
+
  .skill-main h3{
     margin-bottom: 2rem;
     font-size: var(--norma-font);
@@ -583,6 +584,7 @@ body {
     border-radius: 25px;
     margin-top: 10px;
     position: relative;
+    cursor:pointer;
 }
 
 .skill-bar .bar span{
@@ -596,8 +598,12 @@ body {
 }
 
 .skill-bar .bar .python{
-    width: 75%;
+    width: 80%;
     animation: python 2s;
+}
+.skill-bar .bar .r{
+    width: 75%;
+    animation: r 2s;
 }
 .skill-bar .bar .sql{
     width: 85%;
