@@ -57,6 +57,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 20px;
 }
 
 header.sticky{
@@ -192,7 +193,7 @@ section{
 .btn-box{
     display: flex;
     justify-content: space-between;
-    width: 320px;
+    width: 460px;
     height: 45px;
 }
 .btn-box .btn{
